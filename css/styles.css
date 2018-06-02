@@ -1,0 +1,70 @@
+.bg-up-maroon {
+  background-color: #69140E;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  background-color: #181D27;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  margin-top: 60px;
+  font-size: 3em;
+}
+
+.sub-title {
+  font-family: 'Prata', serif;
+  margin-top: 60px;
+  font-size: 2em;
+}
+
+.book-title {
+  font-family: 'Prata', serif;
+  font-size: 0.8em;
+}
+
+.quote {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.4em;
+}
+
+.row-gallery {
+  margin-top: 30px;
+}
+
+#author-quote {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #69140E;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+#tribute-info {
+  margin-top: 25px;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+#tribute-link {
+  color: #FFF;
+}
+
+@media (max-width: 768px) {
+  #author-quote {
+    position: static;
+    top: 0%;
+    transform: translateY(0%);
+    background-color: #69140E;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+}
