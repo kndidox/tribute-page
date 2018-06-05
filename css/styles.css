@@ -57,6 +57,12 @@ body {
   color: #FFF;
 }
 
+#image {
+max-width: 100%;
+display: block;
+height: auto;
+}
+
 @media (max-width: 768px) {
   #author-quote {
     position: static;
